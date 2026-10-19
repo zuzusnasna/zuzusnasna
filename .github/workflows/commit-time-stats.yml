@@ -1,0 +1,40 @@
+name: Update commit time statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/generate_commit_stats.py"
+      - ".github/workflows/commit-time-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-chart:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate commit time chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_commit_stats.py
+
+      - name: Commit updated chart
+        run: |
+          if git diff --quiet -- assets/commit-time.svg; then
+            echo "Commit time chart is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/commit-time.svg
+          git commit -m "chore: update commit time statistics"
+          git push
