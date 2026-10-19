@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="390" viewBox="0 0 920 390">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#172554"/></linearGradient></defs>
+  <rect width="920" height="390" rx="18" fill="url(#bg)"/>
+  <text x="34" y="43" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">COMMIT TIME DISTRIBUTION</text>
+  <text x="35" y="70" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Owned public repositories · Korea Standard Time (KST, UTC+9)</text>
+  <line x1="70" y1="105" x2="870" y2="105" stroke="#334155"/>
+  <line x1="70" y1="200" x2="870" y2="200" stroke="#334155"/>
+  <line x1="70" y1="295" x2="870" y2="295" stroke="#334155"/>
+  <text x="460" y="190" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Preparing your commit-time chart…</text>
+  <text x="460" y="218" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="13">GitHub Actions will populate this chart after the workflow runs.</text>
+  <text x="460" y="344" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="12">Hour of day (KST · UTC+9)</text>
+</svg>
