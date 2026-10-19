@@ -14,6 +14,15 @@
 
 </div>
 
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zuzusnasna&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuzusnasna&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=zuzusnasna&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+</div>
+
 ## 🙋‍♂️ About Me
 
 - Java와 Spring Boot 기반의 백엔드 개발을 중심으로 학습하고 프로젝트를 진행합니다.
@@ -126,15 +135,6 @@
 | **API & Security** | REST API 설계, 인증·인가, 서버 측 요청 검증 |
 | **Performance** | 테스트와 부하 측정을 통한 병목 확인 및 개선 |
 | **Deployment** | Docker, AWS, Nginx, GitHub Actions 활용 |
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zuzusnasna&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuzusnasna&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=zuzusnasna&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
-</div>
 
 ---
 
