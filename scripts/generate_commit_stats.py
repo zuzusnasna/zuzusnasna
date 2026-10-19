@@ -3,7 +3,7 @@ import json
 import urllib.request
 import urllib.error
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from xml.sax.saxutils import escape
 
 USERNAME = "zuzusnasna"
@@ -48,7 +48,7 @@ try:
                     continue
                 try:
                     # Commit timestamps include their timezone; display hour in Korea time.
-                    dt = datetime.fromisoformat(date.replace("Z", "+00:00")).astimezone()
+                    dt = datetime.fromisoformat(date.replace("Z", "+00:00")).astimezone(timezone(timedelta(hours=9)))
                     counts[dt.hour] += 1
                     total += 1
                 except ValueError:
@@ -71,7 +71,7 @@ parts = [
     '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#172554"/></linearGradient></defs>',
     '<rect width="100%" height="100%" rx="18" fill="url(#bg)"/>',
     '<text x="34" y="43" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">COMMIT TIME DISTRIBUTION</text>',
-    '<text x="35" y="70" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Public repositories · author timestamps converted to runner local time</text>',
+    '<text x="35" y="70" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Owned public repositories · timestamps shown in Korea Standard Time (KST)</text>',
     f'<text x="{width-34}" y="43" text-anchor="end" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">{total:,} commits sampled</text>',
 ]
 for tick in (0, 0.5, 1):
@@ -88,7 +88,7 @@ for hour in range(24):
     if hour % 2 == 0:
         parts.append(f'<text x="{x+bar_w/2:.1f}" y="{top+chart_h+23}" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="11">{hour:02d}</text>')
 parts += [
-    f'<text x="{left+chart_w/2}" y="{top+chart_h+49}" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="12">Hour of day (GitHub commit author timestamp)</text>',
+    f'<text x="{left+chart_w/2}" y="{top+chart_h+49}" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="12">Hour of day (KST · UTC+9)</text>',
     '<text x="35" y="365" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent commits from owned public repositories; capped sample per repository.</text>',
     '</svg>'
 ]
