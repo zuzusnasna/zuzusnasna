@@ -23,6 +23,13 @@
   <img src="https://streak-stats.demolab.com?user=zuzusnasna&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
 </div>
 
+### 🕒 Commit Time Activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zuzusnasna/zuzusnasna/main/assets/commit-time.svg" alt="Commit time distribution by hour in Korea Standard Time" width="100%" />
+  <sub>공개 저장소의 최근 커밋 기록을 분석하며, 매주 GitHub Actions로 자동 갱신됩니다. 시간은 한국 표준시(KST, UTC+9) 기준입니다.</sub>
+</div>
+
 ## 🙋‍♂️ About Me
 
 - Java와 Spring Boot 기반의 백엔드 개발을 중심으로 학습하고 프로젝트를 진행합니다.
