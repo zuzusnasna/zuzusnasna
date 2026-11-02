@@ -6,7 +6,7 @@
 
 서비스의 기능 구현을 넘어 **데이터 일관성, 동시성 제어, 성능 개선**을 고민하며 개발합니다.
 
-[🌐 Portfolio](https://zuzusnasna.github.io/portfolio/) · [💻 GitHub](https://github.com/zuzusnasna)
+[🌐 Portfolio](https://zuzusnasna.github.io/portfolio/) · [📝 Blog](https://zuzusnasna.github.io/) · [💻 GitHub](https://github.com/zuzusnasna)
 
 <br/>
 
