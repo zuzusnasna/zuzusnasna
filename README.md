@@ -17,9 +17,6 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zuzusnasna&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuzusnasna&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
-  <br/>
   <img src="https://streak-stats.demolab.com?user=zuzusnasna&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
 </div>
 
