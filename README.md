@@ -1,79 +1,106 @@
 <div align="center">
 
-# 안녕하세요, 주상혁입니다 👋
-
-### Backend Developer · Java · Spring Boot
-
-서비스의 기능 구현을 넘어 **데이터 일관성, 동시성 제어, 성능 개선**을 고민하며 개발합니다.
-
-[🌐 Portfolio](https://zuzusnasna.github.io/portfolio/) · [📝 Blog](https://zuzusnasna.github.io/) · [💻 GitHub](https://github.com/zuzusnasna)
+<img src="./assets/profile-banner.svg" alt="주상혁 · Backend Developer · Java · Spring Boot" width="100%" />
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:2563EB&height=3" width="100%" alt="" />
+<a href="https://zuzusnasna.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-617461?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+<a href="https://zuzusnasna.github.io/"><img src="https://img.shields.io/badge/Blog-617461?style=flat-square&logo=githubpages&logoColor=white" alt="Blog" /></a>
+<a href="https://github.com/zuzusnasna"><img src="https://img.shields.io/badge/GitHub-202520?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+
+<p>서비스의 기능 구현을 넘어 <strong>데이터 일관성, 동시성 제어, 성능 개선</strong>을 고민하며 개발합니다.</p>
 
 </div>
 
-## 📊 GitHub Stats
+---
+
+## 📊 GitHub Activity
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=zuzusnasna&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
 </div>
-
-### 🕒 Commit Time Activity
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/zuzusnasna/zuzusnasna/main/assets/commit-time.svg" alt="Commit time distribution by hour in Korea Standard Time" width="100%" />
   <sub>공개 저장소의 최근 커밋 기록을 분석하며, 매주 GitHub Actions로 자동 갱신됩니다. 시간은 한국 표준시(KST, UTC+9) 기준입니다.</sub>
 </div>
 
+---
+
 ## 🙋‍♂️ About Me
 
-- Java와 Spring Boot 기반의 백엔드 개발을 중심으로 학습하고 프로젝트를 진행합니다.
-- REST API, 데이터베이스 설계, 인증·인가, 캐시와 비동기 처리에 관심이 있습니다.
-- 실제 프로젝트에서 발생하는 동시성 문제와 조회 비용을 분석하고 개선하는 경험을 쌓고 있습니다.
-- 프론트엔드부터 배포 자동화까지 서비스 전체 흐름을 이해하려고 노력합니다.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <ul>
+        <li>Java와 Spring Boot 기반의 백엔드 개발을 중심으로 학습하고 프로젝트를 진행합니다.</li>
+        <li>REST API, 데이터베이스 설계, 인증·인가, 캐시와 비동기 처리에 관심이 있습니다.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <ul>
+        <li>실제 프로젝트에서 발생하는 동시성 문제와 조회 비용을 분석하고 개선하는 경험을 쌓고 있습니다.</li>
+        <li>프론트엔드부터 배포 자동화까지 서비스 전체 흐름을 이해하려고 노력합니다.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 🛠 Tech Stack
 
-### Backend
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
-  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Data JPA" />
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Backend</strong>
+      <p>
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
+        <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Data JPA" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Database &amp; Cache</strong>
+      <p>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Frontend</strong>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222222" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <strong>DevOps &amp; Testing</strong>
+      <p>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
+        <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit" />
+        <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" alt="k6" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-### Database & Cache
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-</p>
-
-### Frontend
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222222" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-### DevOps & Testing
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit" />
-  <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white" alt="k6" />
-</p>
+---
 
 ## 🚀 Featured Projects
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>🎟️ SmartTicketing</h3>
       <p>선호 영화관·좌석 기반 스마트 예매와 취소표 자동 선점 서비스</p>
       <p><strong>Key points</strong></p>
@@ -85,7 +112,7 @@
       </ul>
       <p><a href="https://github.com/zuzusnasna/SmartTicketing">Repository →</a></p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>🚉 Meet-Up</h3>
       <p>여러 사람의 모임 장소 결정부터 귀가 경로와 정산까지 연결하는 웹 서비스</p>
       <p><strong>Key points</strong></p>
@@ -99,7 +126,7 @@
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>🏭 Equipment Management</h3>
       <p>공장 장비 정보와 상태 변경 이력을 관리하는 웹 애플리케이션</p>
       <ul>
@@ -109,7 +136,7 @@
       </ul>
       <p><a href="https://github.com/zuzusnasna/equipment-management">Repository →</a></p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>⛳ SwingFit</h3>
       <p>AI 기반 골프 스윙 영상 분석 Android 애플리케이션</p>
       <ul>
@@ -121,13 +148,15 @@
     </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td colspan="2" valign="top">
       <h3>🎮 GameHub</h3>
       <p>Java Servlet과 Oracle 기반 게임 커뮤니티. 회원·게시글·댓글·반응 및 역할별 권한 관리 기능을 구현했습니다.</p>
       <p><a href="https://github.com/zuzusnasna/miniproject">Repository →</a></p>
     </td>
   </tr>
 </table>
+
+---
 
 ## 💡 What I Focus On
 
@@ -146,7 +175,7 @@
 
 ### 꾸준히 배우고, 원인을 분석하고, 더 나은 구조를 고민합니다.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=githubpages&logoColor=white)](https://zuzusnasna.github.io/portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zuzusnasna)
+<a href="https://zuzusnasna.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-617461?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+<a href="https://github.com/zuzusnasna"><img src="https://img.shields.io/badge/GitHub-202520?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 
 </div>

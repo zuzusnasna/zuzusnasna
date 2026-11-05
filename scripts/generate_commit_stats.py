@@ -67,16 +67,16 @@ bar_w = 22
 gap = (chart_w - 24 * bar_w) / 23
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-    '<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#38bdf8"/></linearGradient>',
-    '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#172554"/></linearGradient></defs>',
+    '<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#70836b"/><stop offset="100%" stop-color="#b6c5a7"/></linearGradient>',
+    '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#151a17"/><stop offset="100%" stop-color="#273129"/></linearGradient></defs>',
     '<rect width="100%" height="100%" rx="18" fill="url(#bg)"/>',
-    '<text x="34" y="43" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">COMMIT TIME DISTRIBUTION</text>',
-    '<text x="35" y="70" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Owned public repositories · timestamps shown in Korea Standard Time (KST)</text>',
-    f'<text x="{width-34}" y="43" text-anchor="end" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">{total:,} commits sampled</text>',
+    '<text x="34" y="43" fill="#f5f6f2" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">COMMIT TIME DISTRIBUTION</text>',
+    '<text x="35" y="70" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Owned public repositories · timestamps shown in Korea Standard Time (KST)</text>',
+    f'<text x="{width-34}" y="43" text-anchor="end" fill="#c0cbbc" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">{total:,} commits sampled</text>',
 ]
 for tick in (0, 0.5, 1):
     y = top + chart_h * (1 - tick)
-    parts.append(f'<line x1="{left}" y1="{y:.1f}" x2="{left+chart_w}" y2="{y:.1f}" stroke="#334155" stroke-width="1"/>')
+    parts.append(f'<line x1="{left}" y1="{y:.1f}" x2="{left+chart_w}" y2="{y:.1f}" stroke="#39473b" stroke-width="1"/>')
 for hour in range(24):
     value = counts[hour]
     h = (value / max_value) * chart_h if max_value else 0
@@ -84,12 +84,12 @@ for hour in range(24):
     y = top + chart_h - h
     parts.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w}" height="{max(3,h):.1f}" rx="5" fill="url(#bar)"/>')
     if value:
-        parts.append(f'<text x="{x+bar_w/2:.1f}" y="{max(top-5,y-8):.1f}" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI,Arial,sans-serif" font-size="10">{value}</text>')
+        parts.append(f'<text x="{x+bar_w/2:.1f}" y="{max(top-5,y-8):.1f}" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">{value}</text>')
     if hour % 2 == 0:
-        parts.append(f'<text x="{x+bar_w/2:.1f}" y="{top+chart_h+23}" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="11">{hour:02d}</text>')
+        parts.append(f'<text x="{x+bar_w/2:.1f}" y="{top+chart_h+23}" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">{hour:02d}</text>')
 parts += [
-    f'<text x="{left+chart_w/2}" y="{top+chart_h+49}" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="12">Hour of day (KST · UTC+9)</text>',
-    '<text x="35" y="365" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent commits from owned public repositories; capped sample per repository.</text>',
+    f'<text x="{left+chart_w/2}" y="{top+chart_h+49}" text-anchor="middle" fill="#9aa695" font-family="Segoe UI,Arial,sans-serif" font-size="12">Hour of day (KST · UTC+9)</text>',
+    '<text x="35" y="365" fill="#9aa695" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent commits from owned public repositories; capped sample per repository.</text>',
     '</svg>'
 ]
 os.makedirs("assets", exist_ok=True)
