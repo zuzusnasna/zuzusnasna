@@ -22,25 +22,25 @@
 <rect x="306.8" y="295.0" width="22" height="3.0" rx="5" fill="url(#bar)"/>
 <rect x="340.6" y="295.0" width="22" height="3.0" rx="5" fill="url(#bar)"/>
 <text x="351.6" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">08</text>
-<rect x="374.4" y="274.9" width="22" height="20.1" rx="5" fill="url(#bar)"/>
-<text x="385.4" y="266.9" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">32</text>
+<rect x="374.4" y="274.2" width="22" height="20.8" rx="5" fill="url(#bar)"/>
+<text x="385.4" y="266.2" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">33</text>
 <rect x="408.3" y="262.3" width="22" height="32.7" rx="5" fill="url(#bar)"/>
 <text x="419.3" y="254.3" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">52</text>
 <text x="419.3" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">10</text>
-<rect x="442.1" y="188.0" width="22" height="107.0" rx="5" fill="url(#bar)"/>
-<text x="453.1" y="180.0" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">170</text>
-<rect x="475.9" y="193.7" width="22" height="101.3" rx="5" fill="url(#bar)"/>
-<text x="486.9" y="185.7" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">161</text>
+<rect x="442.1" y="192.5" width="22" height="102.5" rx="5" fill="url(#bar)"/>
+<text x="453.1" y="184.5" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">163</text>
+<rect x="475.9" y="191.8" width="22" height="103.2" rx="5" fill="url(#bar)"/>
+<text x="486.9" y="183.8" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">164</text>
 <text x="486.9" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">12</text>
-<rect x="509.7" y="222.6" width="22" height="72.4" rx="5" fill="url(#bar)"/>
-<text x="520.7" y="214.6" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">115</text>
+<rect x="509.7" y="223.3" width="22" height="71.7" rx="5" fill="url(#bar)"/>
+<text x="520.7" y="215.3" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">114</text>
 <rect x="543.6" y="178.6" width="22" height="116.4" rx="5" fill="url(#bar)"/>
 <text x="554.6" y="170.6" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">185</text>
 <text x="554.6" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">14</text>
 <rect x="577.4" y="149.0" width="22" height="146.0" rx="5" fill="url(#bar)"/>
 <text x="588.4" y="141.0" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">232</text>
-<rect x="611.2" y="128.9" width="22" height="166.1" rx="5" fill="url(#bar)"/>
-<text x="622.2" y="120.9" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">264</text>
+<rect x="611.2" y="127.6" width="22" height="167.4" rx="5" fill="url(#bar)"/>
+<text x="622.2" y="119.6" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">266</text>
 <text x="622.2" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">16</text>
 <rect x="645.0" y="105.0" width="22" height="190.0" rx="5" fill="url(#bar)"/>
 <text x="656.0" y="100.0" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">302</text>
@@ -49,8 +49,8 @@
 <text x="689.9" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">18</text>
 <rect x="712.7" y="293.1" width="22" height="3.0" rx="5" fill="url(#bar)"/>
 <text x="723.7" y="285.1" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">3</text>
-<rect x="746.5" y="290.6" width="22" height="4.4" rx="5" fill="url(#bar)"/>
-<text x="757.5" y="282.6" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">7</text>
+<rect x="746.5" y="289.3" width="22" height="5.7" rx="5" fill="url(#bar)"/>
+<text x="757.5" y="281.3" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">9</text>
 <text x="757.5" y="318" text-anchor="middle" fill="#c7d1c1" font-family="Segoe UI,Arial,sans-serif" font-size="11">20</text>
 <rect x="780.3" y="274.2" width="22" height="20.8" rx="5" fill="url(#bar)"/>
 <text x="791.3" y="266.2" text-anchor="middle" fill="#e2e8de" font-family="Segoe UI,Arial,sans-serif" font-size="10">33</text>
